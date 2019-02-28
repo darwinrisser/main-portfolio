@@ -7,10 +7,7 @@ const Main = (props) => {
       <div className="container">
         <h1>Darwin Risser</h1>
         <h2>Full Stack Developer</h2>
-        <span className="icons"><i class="fab fa-github"></i></span>
-        <span className="icons"><i class="fab fa-linkedin"></i></span>        
       </div>
-      
     </div>
   )
 }
