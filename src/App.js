@@ -26,7 +26,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Nav changeState={this.changeState}/>
+        <Nav changeState={this.changeState} display={this.state.display}/>
         {content}          
       </div>
     );

@@ -6,7 +6,8 @@ const Main = (props) => {
     <div className="main">
       <div className="container">
         <h1>Darwin Risser</h1>
-        <h2>Full Stack Developer</h2>
+        <h2>FULL  STACK  DEVELOPER</h2>
+        <button>About</button><button>Work</button><button>Contact</button>
       </div>
     </div>
   )
