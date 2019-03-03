@@ -1,8 +1,9 @@
 .App {
-  background-image: url("https://images.unsplash.com/photo-1490131784822-b4626a8ec96a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-image: url("https://images.unsplash.com/photo-1490131784822-b4626a8ec96a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   background-color: grey;
   background-size: cover;
   background-position: center;
   height: 940px;
+  width: 100%;
 }
