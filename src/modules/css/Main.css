@@ -41,3 +41,14 @@ button {
   font-weight: bold;
   color: darkslategray;
 }
+
+button:hover {
+  box-shadow: 0 4px 5px darkgray;
+  background-color: white;
+  cursor: pointer;
+}
+
+.mainLink {
+  text-decoration: none;
+  color: darkslategray;
+}

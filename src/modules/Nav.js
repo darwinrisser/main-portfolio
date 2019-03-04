@@ -27,7 +27,8 @@ const Nav = (props) => {
       <div className="links">
         <span onClick={()=>{
           props.changeState(0)}} style={linkStyle}>Home</span><span onClick={()=>{
-            props.changeState(1)}}>About</span><span>Work</span><span>Contact</span>
+            props.changeState(1)}}>About</span><span onClick={()=>{
+              props.changeState(2)}}>Work</span><span><a href="mailto: risser.darwin@gmail.com" className="navLink">Contact</a></span>
       </div>
     </div>
   )

@@ -7,7 +7,13 @@ const Main = (props) => {
       <div className="container">
         <h1>Darwin Risser</h1>
         <h2>FULL-STACK DEVELOPER</h2>
-        <button><i class="fas fa-user-circle"></i> About</button><button><i class="fas fa-laptop-code"></i> Work</button><button><i class="fas fa-envelope"></i> Contact</button>
+        <button onClick={()=>{
+            props.changeState(1)}}>
+            <i class="fas fa-user-circle"></i> About</button>
+        <button onClick={()=>{
+            props.changeState(2)}}><i class="fas fa-laptop-code"></i> Work</button>
+        <button><a href="mailto: risser.darwin@gmail.com" className=
+        "mainLink"><i class="fas fa-envelope"></i> Contact</a></button>
       </div>
     </div>
   )

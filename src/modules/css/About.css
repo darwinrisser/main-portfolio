@@ -29,9 +29,8 @@
   font-size: 1.5rem;
   border-bottom: 1px dotted darkslategray;
   padding-bottom: 1rem;
-  word-spacing: .5rem;
   font-family: 'Nunito', sans-serif;
-  letter-spacing: .25rem;
+  letter-spacing: .2rem;
 }
 
 .items {

@@ -5,7 +5,6 @@ const About = (props) => {
   return(
     <div className="about">
       <div className="aboutBox">
-        {/* <div id="headIcon"><i class="fas fa-user-circle"></i></div> */}
         <p id="aboutContent">I am a full-stack web developer from Austin, TX.</p>
         <button id="resumeButton">RESUME <i class="fas fa-file-download"></i></button>
         <p className="sectionHead">Front End</p>

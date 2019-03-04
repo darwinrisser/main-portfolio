@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './modules/Nav.js';
 import Main from './modules/Main.js';
 import About from './modules/About.js'
+import Work from './modules/Work.js'
 
 class App extends Component {
 
@@ -19,9 +20,11 @@ class App extends Component {
   render() {
     let content = null;
     if (this.state.display === 0){
-      content = <Main/>
+      content = <Main changeState={this.changeState}/>
     } else if (this.state.display === 1){
       content = <About/>
+    } else if (this.state.display === 2){
+      content = <Work/>
     }
 
     return (

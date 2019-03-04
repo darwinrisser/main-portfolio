@@ -29,6 +29,8 @@ a{
 .icons{
   font-size: 1.5rem;
   padding: 0rem 1rem;
+  transition: color 0.2s linear;
+  color: white;
 }
 
 .icons:hover {
@@ -48,9 +50,14 @@ a{
   display: flex;
   align-items: center;
   color: white;
+  transition: background-color 0.2s linear;
 }
 
 .links span:hover{
   background-color: black;
   cursor: pointer;
+}
+
+.navLink {
+  text-decoration: none;
 }
