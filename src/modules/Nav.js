@@ -2,21 +2,6 @@ import React from 'react';
 import './css/Nav.css'
 
 const Nav = (props) => {
-  
-  let linkStyle = {
-    backgroundColor: 'none'
-  }
-
-  if (props.display === 0){
-      linkStyle = {
-        backgroundColor: 'black'
-    }
-  } else if (props.display === 1){
-      linkStyle = {
-        backgroundColor: 'none'
-    }
-  }
-  
   return(
     <div className="Nav">
       <div className="name">
@@ -26,10 +11,11 @@ const Nav = (props) => {
       </div>
       <div className="links">
         <span onClick={()=>{
-          props.changeState(0)}} style={linkStyle}>Home</span><span onClick={()=>{
-            props.changeState(1)}}>About</span><span onClick={()=>{
-              props.changeState(2)}}>Work</span><span><a href="mailto: risser.darwin@gmail.com" className="navLink">Contact</a></span>
-      </div>
+          props.changeState(0)}} >Home</span>
+        <span onClick={()=>{
+          props.changeState(1)}} >Work</span>
+        <span><a href="mailto: risser.darwin@gmail.com" target="_blank" className="navLink">Contact</a></span>
+      </div>      
     </div>
   )
 }

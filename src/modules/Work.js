@@ -37,7 +37,7 @@ const Work = (props) => {
               Game of Thrones Quiz
             </h3>
             <p>
-              Quiz style Javascript game based around Game of Thrones.
+              Quiz style React app based around Game of Thrones.
             </p>
             <img src="https://i.imgur.com/YQaE2Cp.jpg" alt="webpage example"/>
           </div>

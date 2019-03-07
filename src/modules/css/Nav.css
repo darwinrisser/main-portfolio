@@ -6,7 +6,7 @@
   border-bottom: 1px solid darkgrey;
   box-shadow: 0 2px 3px darkgray;
   background-color: darkslategray;
-  opacity: .85;
+  position: fixed;
 }
 
 .name {
@@ -38,6 +38,10 @@ a{
   cursor: pointer;
 }
 
+.mobile{
+  display: none;
+}
+
 .links {
   grid-area: "nav";
   display: flex;
@@ -60,4 +64,25 @@ a{
 
 .navLink {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1500px) {
+  .Nav {
+    height: 5rem;
+  }
+  .icons{
+    font-size: 2rem;
+  }
+  .links{
+    font-size: 1.25rem;
+  }
+  .title{
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    display: none;
+  }
 }
