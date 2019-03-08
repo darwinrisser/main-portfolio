@@ -33,18 +33,21 @@ button {
   background-color: none;
   padding: .5rem;
   margin: 0 4px;
-  width: 4.5rem;
+  width: 4.75rem;
   border: none;
   border-radius: .5rem;
   box-shadow: 0 2px 3px darkgray;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-weight: bold;
   color: darkslategray;
+  word-spacing: .25rem;
+  transition: background-color 0.2s linear;
+  transition: box-shadow 0.2s linear;
 }
 
 button:hover {
-  box-shadow: 0 4px 5px darkgray;
-  background-color: white;
+  box-shadow: 1px 3px 4px darkgray;
+  background-color: lightgrey;
   cursor: pointer;
 }
 

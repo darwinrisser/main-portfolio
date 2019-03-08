@@ -50,6 +50,15 @@ const Work = (props) => {
             </p>
             <img src="https://i.imgur.com/aQx7JSJ.jpg" alt="webpage example"/>
           </div>
+          <div className="example">
+            <h3>
+              Placeholder Project
+            </h3>
+            <p>
+              Eventually another project will go here.
+            </p>
+            <img src="https://i.imgur.com/aQx7JSJ.jpg" alt="webpage example"/>
+          </div>
       </div>
     </div>
   )
