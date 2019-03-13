@@ -23,7 +23,7 @@
 }
 
 .container h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1rem 0;
   margin-top: 1rem;
   font-family: 'Oswald', sans-serif;
@@ -41,8 +41,6 @@ button {
   font-weight: bold;
   color: darkslategray;
   word-spacing: .25rem;
-  transition: background-color 0.2s linear;
-  transition: box-shadow 0.2s linear;
 }
 
 button:hover {

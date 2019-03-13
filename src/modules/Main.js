@@ -3,10 +3,10 @@ import './css/Main.css'
 
 const Main = (props) => {
   return(
-    <div className="main">
+    <div className="main" id="main">
       <div className="container">
         <h1>Darwin Risser</h1>
-        <h2>FULL-STACK DEVELOPER</h2>
+        <h2>FRONT-END DEVELOPER</h2>
         <button><i class="fas fa-file"></i> Resume</button>
         <button onClick={()=>{
             props.changeState(1)}}><i class="fas fa-laptop-code"></i> Work</button>

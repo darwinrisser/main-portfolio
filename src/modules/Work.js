@@ -7,12 +7,12 @@ const Work = (props) => {
       <div className="box">
           <div className="example">
             <h3>
-              River Rat Raku
+              Game of Thrones Quiz
             </h3>
             <p>
-              SPA for my uncle's pottery business. Built in React.
+              Javascript quiz game. Built in React.<br/>
             </p>
-            <img src="https://i.imgur.com/C6NahJL.jpg" alt="webpage example"/>
+            <a href="https://drisser.github.io/got-react/" target="_blank"><img src="https://i.imgur.com/YQaE2Cp.jpg" alt="webpage example"/></a>
           </div>
           <div className="example">
             <h3>
@@ -21,7 +21,7 @@ const Work = (props) => {
             <p>
               SPA for a hypothetical business. Highly responsive design.
             </p>
-            <img src="https://i.imgur.com/AdzDtix.jpg" alt="webpage example"/>
+            <a href="https://drisser.github.io/gh-pages/blue-vpn/" target="_blank"><img src="https://i.imgur.com/AdzDtix.jpg" alt="webpage example"/></a>
           </div>
           <div className="example">
             <h3>
@@ -30,16 +30,16 @@ const Work = (props) => {
             <p>
               Simple Javascript game based on clicking a button to "mine" Bitcoin.
             </p>
-            <img src="https://i.imgur.com/KD5KKcQ.jpg" alt="webpage example"/>
+            <a href="https://drisser.github.io/gh-pages/bitcoin-miner/" target="_blank"><img src="https://i.imgur.com/KD5KKcQ.jpg" alt="webpage example"/></a>
           </div>
           <div className="example">
             <h3>
-              Game of Thrones Quiz
+              River Rat Raku
             </h3>
             <p>
-              Quiz style React app based around Game of Thrones.
+              SPA for my uncle's pottery business. Built in React.
             </p>
-            <img src="https://i.imgur.com/YQaE2Cp.jpg" alt="webpage example"/>
+            <a href ="https://drisser.github.io/gh-pages/river-rat-raku/" target="_blank"><img src="https://i.imgur.com/C6NahJL.jpg" alt="webpage example"/></a>
           </div>
           <div className="example">
             <h3>

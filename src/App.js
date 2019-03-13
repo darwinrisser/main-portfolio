@@ -7,15 +7,24 @@ import Work from './modules/Work.js'
 class App extends Component {
 
   state={
-    display: 0
+    display: 0,
+    homeStyle: true,
+    workStyle: false
   }
-  
+   
   changeState = (num) => {
     this.setState(()=>{
       return {display:num}
     })
+    if (num === 0){
+      this.setState(()=>{
+        return {homeStyle:true, workStyle:false}
+      })} else if (num === 1){
+            this.setState(()=>{
+              return {homeStyle:false, workStyle:true}
+          })}
   }
-
+  
   render() {
     let content = null;
     if (this.state.display === 0){
@@ -26,7 +35,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Nav changeState={this.changeState} display={this.state.display}/>
+        <Nav changeState={this.changeState} display={this.state.display} homeStyle={this.state.homeStyle} workStyle={this.state.workStyle}/>
         {content}
       </div>
     );
