@@ -7,6 +7,15 @@ const Work = (props) => {
       <div className="box">
           <div className="example">
             <h3>
+              teacherr
+            </h3>
+            <p>
+              Full stack networking service, built with React, Node, Express, and MongoDB. 
+            </p>
+            <img src="https://i.imgur.com/YXDzbEQr.jpg" alt="webpage example"/>
+          </div>
+          <div className="example">
+            <h3>
               Game of Thrones Quiz
             </h3>
             <p>
@@ -40,15 +49,6 @@ const Work = (props) => {
               SPA for my uncle's pottery business. Built in React.
             </p>
             <a href ="https://darwinrisser.github.io/river-rat-raku/" target="_blank"><img src="https://i.imgur.com/C6NahJL.jpg" alt="webpage example"/></a>
-          </div>
-          <div className="example">
-            <h3>
-              Placeholder Project
-            </h3>
-            <p>
-              Eventually another project will go here.
-            </p>
-            <img src="https://i.imgur.com/aQx7JSJ.jpg" alt="webpage example"/>
           </div>
           <div className="example">
             <h3>
