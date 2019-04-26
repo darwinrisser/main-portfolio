@@ -10,9 +10,9 @@ const Work = (props) => {
               teacherr
             </h3>
             <p>
-              Full stack networking service, built with React, Node, Express, and MongoDB. 
+              Full stack networking service, React, Node, Express, and MongoDB. 
             </p>
-            <img src="https://i.imgur.com/YXDzbEQr.jpg" alt="webpage example"/>
+            <a href="https://darwinrisser.github.io/teacherr/" target="_blank"><img src="https://i.imgur.com/Q7BtFNt.jpg" alt="webpage example"/></a>
           </div>
           <div className="example">
             <h3>
