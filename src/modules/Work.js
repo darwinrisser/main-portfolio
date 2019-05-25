@@ -39,7 +39,7 @@ const Work = (props) => {
             <p>
               - React, Redux, Javascript, HTML, CSS -
             </p>
-            <img src="https://i.imgur.com/7yXsINs.jpg" alt="webpage example"/>
+            <a href="https://darwinrisser.dev/advanced-redux-practice/charts.html" target="_blank"><img src="https://i.imgur.com/7yXsINs.jpg" alt="webpage example"/></a>
           </div>
           <div className="example">
             <h3>
