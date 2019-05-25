@@ -4,8 +4,9 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  min-height: 950px;
-  background-image: url("https://i.imgur.com/3tgcIND.jpg");
+  min-height: 100vh;
+  background-color: lightgray;
+  /* background-image: url("https://i.imgur.com/3tgcIND.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
  }
@@ -18,26 +19,33 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
   margin-bottom: 2.5rem;
 }
 
 .example{
-  width: 25rem;
-  margin: 2rem 3rem;
+  width: 45rem;
   text-align: center;
+  margin: 5px;
+}
+
+.example p {
+  font-size: 1.05rem;
+}
+
+.example h3 {
+  font-size: 1.5rem;
 }
 
 .example img{
-  max-width: 450px;
-  max-height: 275px;
-  border: 2px inset;
-  border-radius: 12px;
-  box-shadow: 1px 3px 4px darkgray;
+  max-width: 600px;
+  border: 1px inset;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px white;
 }
 
 .example img:hover{
-  box-shadow: 3px 6px 7px darkgray;
+  box-shadow: 1px 1px 1px gray;
   border-color: lightgray;
 }
 
